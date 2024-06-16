@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
+body {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2.2px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 20px;
+  }
+
+  #background {
+    background-image: url(images/background_banner1.png);
+  }
+
+  #nos-background {
+    background-image: url(images/background_banner-4.png);
+  }
+
+  #con-background {
+    background-image: url(images/background_banner-3.png);
+  }
+
+  #galebackground {
+    background-image: url(images/background_banner-2.png);
+  }
+
+  #actibackground {
+    background-image: url(images/background_banner-5.png);
+  }
+
+
+  header img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+  
+  .titulo {
+    font-size: 54px; /* Ajusta el tamaño según tus preferencias */
+    color: #ed0416; /* Ajusta el color según tus preferencias */
+    text-align: center; /* Centra el título en el contenedor */
+    letter-spacing: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px #000000;
+    
+  }
+
+  .banner {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    opacity: 0.80;
+  }
+
+  .titulo:hover {
+    font-size: 60px; /* Aumenta un poco más el tamaño del título */
+    color: #FF00FF; /* Cambia el color al pasar el cursor sobre el título */
+    transform: rotate(-5deg); /* Agrega una ligera rotación al título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agrega una sombra suave */
+  }
+  
+  nav {
+    
+    padding: 10px;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .boton {
+    margin: 5px; /* Ajusta el margen según tus preferencias */
+    
+    background-color: #00bfff; /* Celeste eléctrico */
+    color: #ffffff; /* Texto en blanco */
+    padding: 10px; /* Ajusta el padding según tus preferencias */
+    border-radius: 5px; /* Ajusta el radio de borde según tus preferencias */
+    transition: all 0.3s; /* Transición suave */
+    text-decoration: none; /* Quita el subrayado del enlace */
+  }
+  
+  .boton:hover {
+    background-color: #007fff; /* Celeste más oscuro al pasar el mouse */
+    transform: scale(1.1); /* Aumenta el tamaño en un 10% */
+  }
+  
+  .boton:active {
+    background-color: #0000ff; /* Azul al hacer clic */
+  }
+
+
+  
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #8f95d3;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #fdfdfd; /* Borde del texto */
+  }
+
+  
+  
+  h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #8f95d3;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    color: azure;
+    text-align: center;
+    font-size: large;
+  }
+
+  .texto {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 5px;
+    line-height: 1.8;
+    font-size: large;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  
+  .seccion {
+    margin-bottom: 40px;
+  }
+  
+  .rango {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .miembro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .miembro img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 0px;
+    
+  }
+  
+  .nombre {
+    font-size: 20px;
+    color: #ffffff;
+    
+  }
+  
+  .descripcion {
+    font-size: 16px;
+    color: #cccccc;
+  }
+ 
+.walogo {
+    background: transparent;
+    text-align: center;
+}
+
+.perfil {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .perfil h3 {
+    margin-bottom: 5px;
+  }
+  
+  .perfil ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .perfil li {
+    margin-bottom: 5px;
+    color:gold;
+  }
+
+  .video-container {
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container video, .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+.videos_item:hover {
+    transform: scale(1.1);
+    background-color: var(--azul-claro);
+    z-index: 2;
+    transition: .5s;
+   
+}
+
+.detalles__video p {
+    
+    margin-top: 0%;
+}
